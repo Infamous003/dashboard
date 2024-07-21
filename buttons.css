@@ -5,5 +5,15 @@ button {
     padding: 0.4rem 0;
     width: 100px;
     color: white;
-    background-color: #0284c7;
+    background-color: #14532d;
+    cursor: pointer;
+
+    box-shadow: 2px 2px 5px rgba(40, 40, 40, 0.3);
+
+    transition: all 0.15s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 7px rgba(40, 40, 40, 0.3);
 }

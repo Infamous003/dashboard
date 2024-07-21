@@ -2,7 +2,7 @@
 
 main {
     display: grid;
-    grid-template-columns: [start]300px [middle]1fr [end];
+    grid-template-columns: [start]290px [middle]1fr [end];
 }
 
 /*----------  Sidebar  ---------*/
@@ -40,9 +40,18 @@ header > section > div {
 
 .main-section{
     display: grid;
-    grid-template-columns: [start]2fr [middle]1fr [end];
+    /* grid-template-columns: [start]2fr [middle]1fr [end]; */
 }
 
 .projects-section {
     grid-column: start / middle;
+}
+
+
+/*---------- Side bar inside main section  ---------*/
+
+.right-sidebar {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+
 }

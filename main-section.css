@@ -1,7 +1,7 @@
 .main-section {
-    padding: 2rem 0 0 2rem;
+    padding: 2rem 4rem 2rem 2rem;
     display: grid;
-    grid-template-columns: [start]2fr [middle]1fr [end];
+    grid-template-columns: [start]2fr [middle]auto [end];
     background-color: rgb(245, 245, 245);
     gap: 2rem;
 }

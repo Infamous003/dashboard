@@ -1,0 +1,50 @@
+.right-sidebar {
+    gap: 1rem;
+}
+
+.right-sidebar .card {
+    border: none;
+}
+
+.announcement-card > div > div {
+    padding: 1rem 0.5rem;
+}
+
+.announcement-card > div > div:nth-child(1),
+.announcement-card > div > div:nth-child(2){
+    border-bottom: 1px solid rgba(150, 150, 150, 0.8);
+}
+
+.right-sidebar > p {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.trending-card > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.account-widget {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.trending-card {
+    padding: 1.5rem 1rem;
+}
+
+.account-widget > .pfp-container,
+.pfp-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+p.role {
+    font-weight: bold;
+}
