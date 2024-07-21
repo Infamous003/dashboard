@@ -1,0 +1,57 @@
+/*----------   Main   ----------*/
+
+main {
+    display: grid;
+    grid-template-columns: [start]300px [middle]1fr [end];
+}
+
+
+/*----------  Sidebar  ---------*/
+
+
+.sidebar {
+    display: grid;
+    /* grid-template-rows: [top] [middle1] [middle2] [end]; */
+    /* grid-row: 1fr; */
+}
+
+
+/*----------    Main Section    ----------*/
+
+.right-section{
+    display: grid;
+    grid-template-rows: [top]1fr [middle]3fr [bottom];
+}
+
+/*----------  Header  ----------*/
+
+header{
+    /* grid-column: middle / end; */
+    display: grid;
+}
+
+header > section {
+    grid-auto-flow: column;
+}
+
+header > section > div {
+    display: grid;
+    grid-auto-flow: column;
+    /* height: 75px; */
+    /* grid-template-columns: [start]25px clamp(100px, 500px) [middle2]auto [middle3]auto [end]auto; */
+    grid-template-columns: [start]2fr [middle]1fr [end];
+}
+
+
+/*----------  Main Section ----------*/
+
+.main-section{
+    /* grid-column: middle / end; */
+    display: grid;
+    grid-template-columns: [start]2fr [middle]1fr [end];
+    /* grid-row: 1fr; */
+}
+
+.projects-section {
+    grid-column: start / middle;
+}

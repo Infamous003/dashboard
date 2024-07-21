@@ -1,0 +1,56 @@
+:root {
+    --sidebar-bg: #0284c7;
+    --sidebar-on-hover-bg: #0178b4;
+}
+
+.sidebar {
+    background-color: var(--sidebar-bg);
+    color: white;
+    grid-template-rows: [top]auto [middle]1fr [bottom];
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+svg {
+    fill: white;
+    font-size: 100px;
+}
+
+.sidebar-logo {
+    height: max-content;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+.sidebar-logo svg {
+    width: 40px;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+nav > ul > li {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    padding: 1rem;
+
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+ul > li:hover {
+    background-color: var(--sidebar-on-hover-bg);
+}
+
+nav > ul > li > svg {
+    margin-right: 1.2rem;
+    margin-left: 0.6rem;
+}
+
+nav > ul > li:nth-child(6){
+    margin-bottom: 3rem;
+}

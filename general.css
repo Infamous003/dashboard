@@ -4,11 +4,27 @@ html {
     font-family: Roboto, system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
 svg {
     width: 25px;
 }
 
 img{
-    width: 50px;
+    width: 35px;
 }
 
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
