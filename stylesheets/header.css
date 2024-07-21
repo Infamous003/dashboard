@@ -7,12 +7,10 @@ header {
 
 
 .head-section-top {
-    /* border: 1px solid red; */
     height: max-content;
 }
 
 .head-section-bottom {
-    /* border: 1px solid red; */
     height: max-content;
 }
 
@@ -64,10 +62,6 @@ header > section.head-section-top {
 }
 
 /*  HEADER SECTION BOTTOM CONTAINER  */
-
-.bottom-container {
-    /* border: 1px solid red; */
-}
 
 .bottom-container .pfp-container {
     width: 75px;
