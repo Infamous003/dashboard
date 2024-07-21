@@ -1,0 +1,13 @@
+.main-section {
+    padding: 2rem 0 0 2rem;
+    display: grid;
+    grid-template-columns: [start]2fr [middle]1fr [end];
+    background-color: rgb(245, 245, 245);
+    gap: 2rem;
+}
+
+.projects-section {
+    display: grid;
+    grid-template-rows: max-content auto;
+}
+
