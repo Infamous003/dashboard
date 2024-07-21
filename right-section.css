@@ -1,0 +1,92 @@
+header {
+    font-weight: bold;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 15px rgba(70,70,70, 0.3);
+}
+
+
+.head-section-top {
+    /* border: 1px solid red; */
+    height: max-content;
+}
+
+.head-section-bottom {
+    /* border: 1px solid red; */
+    height: max-content;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+}
+
+.container > div:nth-child(2){
+    font-weight: bold;
+}
+
+.container > div > input {
+    height: 35px;
+    width: 75%;
+    border: none;
+    background-color: #b5c2c971;
+    border-radius: 1rem;
+}
+
+.search-icon {
+    margin-right: 1rem;
+}
+
+.top-container > div:nth-child(2) {
+    justify-content: center;
+}
+
+.right-section svg {
+    fill: rgb(56, 56, 56);
+}
+
+.top-container .pfp-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 2rem;
+}
+
+.pfp-container img {
+    width: 50px;
+    height: 50px;
+}
+
+
+header > section.head-section-top {
+    margin-bottom: 2rem;
+}
+
+/*  HEADER SECTION BOTTOM CONTAINER  */
+
+.bottom-container {
+    /* border: 1px solid red; */
+}
+
+.bottom-container .pfp-container {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.bottom-container .name {
+    font-size: 1.5rem;
+}
+
+.bottom-container .pfp-container img {
+    width: 75px;
+    height: 75px;
+}
+
+.buttons-container button {
+    margin-left: 2rem;
+}
+

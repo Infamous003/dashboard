@@ -8,7 +8,6 @@
     color: white;
     grid-template-rows: [top]auto [middle]1fr [bottom];
     font-weight: bold;
-    border: 1px solid red;
 }
 
 svg {
