@@ -1,5 +1,7 @@
-# dashboard
+# dashboard website
 
-A simple Dashboard page using CSS Grids(mostly)
+## A simple Dashboard page using CSS Grids
 
-Here's a live preview of it: https://infamous003.github.io/dashboard/
+This project was part of THe Odin Project. Have used grids majorly to lay out the content. The cards are also laid out in a grid and responsively fit in depending on the space available.
+
+### Live demo: https://infamous003.github.io/dashboard/
